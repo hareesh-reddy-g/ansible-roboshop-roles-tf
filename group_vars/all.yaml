@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb-{{ env }}.hareesh.space # mongodb-dev.hareesh.space
+REDIS_HOST: redis-{{ env }}.hareesh.space
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.hareesh.space
+CART_HOST: cart.backend-alb-{{ env }}.hareesh.space
+USER_HOST: user.backend-alb-{{ env }}.hareesh.space
+RABBITMQ_HOST: rabbitmq-{{ env }}.hareesh.space
+MYSQL_HOST: mysql-{{ env }}.hareesh.space
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.hareesh.space
+PAYMENT_HOST: payment.backend-alb-{{ env }}.hareesh.space
